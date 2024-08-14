@@ -1,4 +1,4 @@
-## HoldSplitter: Unmasking the Wall: Hold by Hold
+## HoldSplitter
 
 <p align="center">
 <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/HoldSplitter.png" width="100%">
@@ -39,13 +39,13 @@
 </p>
 
 >[!IMPORTANT]
->This repository's release notes, README, and almost 90% of commit messages are generated using [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) through [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
+>This repository's release notes, README, and nearly 90% of the commit messages are generated using [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) with our AI tools: [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
 
-HoldSplitter is a Python tool that revolutionizes climbing route analysis and understanding by separating holds from 3D models of bouldering walls.
+HoldSplitter is a Python tool that revolutionizes climbing route analysis and understanding by separating holds from a 3D model of a bouldering wall.
 
 ## 🎥 Demo
 
-*Demo video will be added later.*
+※ Demo video will be added later.
 
 ## 🚀 Getting Started
 
@@ -65,19 +65,21 @@ run_blender_script(fbx_path="path/to/your/model.fbx", offset=0.1, split_threshol
 
 ## 📝 Features
 
-- Import 3D models of bouldering walls from FBX files
-- Automatic separation of the wall and holds
-- Individual object creation of separated holds
+- Load 3D models of bouldering walls from FBX files
+- Automatic separation of wall and holds
+- Individualization of separated holds as objects
 - Advanced 3D processing using Blender
+- Output in Blender file (.blend) format
+- Easy import into 3D software such as Unreal Engine 5 (UE5)
 
 ## 🛠 Requirements
 
-- Python 3.10 or higher
-- Blender 4.2 or higher
+- Python 3.10 or later
+- Blender 4.2 or later
 
 ## 🤝 Contributing
 
-Contributions to the project are welcome! Feel free to participate with bug reports, feature requests, pull requests, and more.
+Contributions to the project are welcome! Feel free to participate with bug reports, feature requests, pull requests, etc.
 
 ## 📄 License
 
@@ -85,7 +87,7 @@ This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgements
 
-This project is built upon the shoulders of these fantastic open-source projects:
+This project is built upon the following amazing open-source projects:
 
 - Blender
 - NumPy
@@ -97,7 +99,24 @@ This project is built upon the shoulders of these fantastic open-source projects
 
 ## 🔄 Updates
 
-- **[v0.1.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.0):** Initial release. Implemented basic hold separation functionality from FBX files.
-- **[v0.1.1](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.1):** Improved Blender scripts. Enhanced hold separation accuracy.
-- **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):**  Changed PyPI package name from "HoldSplitter" to "hold-splitter" and updated the README. 
-- **[v1.11.1](https://github.com/Sunwood-ai-labs/AlphaExperiment/releases/tag/v1.11.1):**  🎉
+- **[v0.1.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.0):** Initial release. Implements basic hold separation functionality from FBX files.
+- **[v0.1.1](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.1):** Improved Blender script. Enhanced hold separation accuracy.
+- **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):** Changed PyPI package name from "HoldSplitter" to "hold-splitter" and updated README.
+
+## 🎮 UE5 Integration
+
+HoldSplitter outputs processed results in Blender file (.blend) format, enabling easy import into 3D software and game engines like Unreal Engine 5 (UE5). This design offers the following benefits:
+
+1. **Direct Import**: Many 3D production software, including UE5, can directly import Blender files.
+
+2. **Data Preservation**: Not only the geometry of the 3D model but also materials, textures, and hierarchical structure are retained.
+
+3. **Organized Structure**: Separated holds are organized within individual collections, ensuring they are imported into UE5 in a structured manner.
+
+4. **Flexible Editing**: Additional edits and adjustments can be easily made later in Blender if necessary.
+
+5. **Game Development Ready**: Supports various application scenarios, including the development of climbing simulators and VR experiences.
+
+This allows HoldSplitter to provide a seamless workflow from 3D model processing to actual game development.
+
+```
