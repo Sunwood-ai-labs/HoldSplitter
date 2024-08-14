@@ -166,3 +166,5 @@ tmp2.md
 .Gaiah.md
 .SourceSageAssets
 assets/
+poetry.lock
+!.github/release_notes/assets
