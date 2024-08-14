@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hold-splitter"
-version = "0.3.0"
+version = "0.3.1"
 description = "クライミングウォールの平面を可視化するツール"
 authors = ["Maki <sunwood.ai.labs@gmail.com>"]
 readme = "README.md"
