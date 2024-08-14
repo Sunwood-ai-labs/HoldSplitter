@@ -97,4 +97,6 @@ run_blender_script(fbx_path="path/to/your/model.fbx", offset=0.1, split_threshol
 
 - **[v0.1.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.0):** 初期リリース。FBXファイルからのホールド分離基本機能を実装。
 - **[v0.1.1](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.1):** Blenderスクリプトの改善。ホールド分離の精度向上。
-- **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):** CLIインターフェースの追加。ユーザビリティの向上。
+- **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):**  PyPI パッケージ名を "HoldSplitter" から "hold-splitter" に変更し、README を更新。 
+- **[v1.11.1](https://github.com/Sunwood-ai-labs/AlphaExperiment/releases/tag/v1.11.1):**  🎉  
+</readme>
