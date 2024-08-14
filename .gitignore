@@ -167,3 +167,4 @@ tmp2.md
 .SourceSageAssets
 assets/
 poetry.lock
+!.github/release_notes/assets
