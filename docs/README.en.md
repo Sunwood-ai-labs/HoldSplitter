@@ -1,4 +1,4 @@
-## HoldSplitter: Unmasking the Wall, Hold by Hold
+## HoldSplitter: Unmasking the Wall: Hold by Hold
 
 <p align="center">
 <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/HoldSplitter.png" width="100%">
@@ -39,13 +39,13 @@
 </p>
 
 >[!IMPORTANT]
-> This repository's release notes, README, and commit messages are generated primarily by [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) using [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
+>This repository's release notes, README, and almost 90% of commit messages are generated using [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) through [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
 
 HoldSplitter is a Python tool that revolutionizes climbing route analysis and understanding by separating holds from 3D models of bouldering walls.
 
 ## 🎥 Demo
 
-※ Demo video will be added later.
+*Demo video will be added later.*
 
 ## 🚀 Getting Started
 
@@ -65,10 +65,10 @@ run_blender_script(fbx_path="path/to/your/model.fbx", offset=0.1, split_threshol
 
 ## 📝 Features
 
-- Loading 3D models of bouldering walls from FBX files.
-- Automatic separation of the wall and holds.
-- Individual object creation of separated holds.
-- Advanced 3D processing using Blender.
+- Import 3D models of bouldering walls from FBX files
+- Automatic separation of the wall and holds
+- Individual object creation of separated holds
+- Advanced 3D processing using Blender
 
 ## 🛠 Requirements
 
@@ -77,7 +77,7 @@ run_blender_script(fbx_path="path/to/your/model.fbx", offset=0.1, split_threshol
 
 ## 🤝 Contributing
 
-Contributions to the project are welcome! Feel free to submit bug reports, feature requests, pull requests, etc.
+Contributions to the project are welcome! Feel free to participate with bug reports, feature requests, pull requests, and more.
 
 ## 📄 License
 
@@ -85,7 +85,7 @@ This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgements
 
-This project is built upon the following amazing open source projects:
+This project is built upon the shoulders of these fantastic open-source projects:
 
 - Blender
 - NumPy
@@ -97,8 +97,7 @@ This project is built upon the following amazing open source projects:
 
 ## 🔄 Updates
 
-- **[v0.1.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.0):** Initial release. Implements basic functionality for hold separation from FBX files.
-- **[v0.1.1](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.1):** Improved Blender script. Enhanced hold separation accuracy.
-- **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):** Added CLI interface. Improved usability.
-
-```
+- **[v0.1.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.0):** Initial release. Implemented basic hold separation functionality from FBX files.
+- **[v0.1.1](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.1):** Improved Blender scripts. Enhanced hold separation accuracy.
+- **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):**  Changed PyPI package name from "HoldSplitter" to "hold-splitter" and updated the README. 
+- **[v1.11.1](https://github.com/Sunwood-ai-labs/AlphaExperiment/releases/tag/v1.11.1):**  🎉
