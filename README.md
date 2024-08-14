@@ -51,6 +51,14 @@ HoldSplitterは現在開発段階にあります。具体的な利用方法は�
 - クリアな壁面ビジュアライゼーション
 - ルート分析のための強力なツール
 
+
+python main_script.py assets\a\source\finalized\wall_hold_smooth.fbx 0.01
+
+"C:\Program Files\Blender Foundation\Blender 4.2\4.2\python\bin\python.exe" -m pip install pandas tqdm
+"C:\Program Files\Blender Foundation\Blender 4.2\4.2\python\bin\python.exe" -m ensurepip
+
+poetry run python example\demo.py
+
 ## 🤝 Contributing
 
 プロジェクトへの貢献を歓迎します！バグレポート、機能リクエスト、プルリクエストなど、お気軽にご参加ください。
