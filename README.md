@@ -34,7 +34,8 @@
 >[!IMPORTANT]
 >このリポジトリのリリースノートやREADME、コミットメッセージの9割近くは[claude.ai](https://claude.ai/)や[ChatGPT4](https://chatgpt.com/)を活用した[AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II)で生成しています。
 
-## 🌟 Yukihiko：毎日論文をスクレイピングし、Issueに翻訳と要約を作成
+
+HoldSplitterは、ボルダリング壁面の画像からホールドを分離し、クライミングルートの分析と理解を革新的に支援するツールです。
 
 ## 🎥 Demo
 
@@ -42,11 +43,13 @@
 
 ## 🚀 Getting Started
 
-このリポジトリは現在開発段階です。具体的な利用方法は、後日公開されるドキュメントをご確認ください。
+HoldSplitterは現在開発段階にあります。具体的な利用方法は、後日公開されるドキュメントをご確認ください。
 
-## 📝 Updates
+## 📝 Features
 
-開発の進捗状況や今後のアップデート情報は、このセクションで随時お知らせします。
+- ボルダリング壁面画像からのホールド分離
+- クリアな壁面ビジュアライゼーション
+- ルート分析のための強力なツール
 
 ## 🤝 Contributing
 
@@ -58,18 +61,4 @@
 
 ## 🙏 Acknowledgements
 
-このプロジェクトは、多くの素晴らしいオープンソースプロジェクトに感謝しています。 
-
----
-
-## Introduction
-
-Yukihikoは、最新の研究論文を日々自動的に収集し、その内容を日本語で簡単に理解できるように、翻訳と要約を自動生成するリポジトリです。生成された翻訳と要約は、GitHubのIssueとして投稿されます。
-
-## 機能
-
-* 定期的な論文のスクレイピング
-* 論文の日本語翻訳
-* 論文の要約生成
-* 翻訳と要約をGitHub Issueに投稿 
-
+このプロジェクトは、多くの素晴らしいオープンソースプロジェクトに支えられています。
