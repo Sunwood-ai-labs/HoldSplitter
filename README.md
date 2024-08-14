@@ -67,7 +67,9 @@ run_blender_script(fbx_path="path/to/your/model.fbx", offset=0.1, split_threshol
 - 壁面とホールドの自動分離
 - 分離されたホールドの個別オブジェクト化
 - Blenderを利用した高度な3D処理
-
+- Blenderファイル(.blend)形式での出力
+- Unreal Engine 5 (UE5)などの3Dソフトウェアへの簡単なインポート
+  
 ## 🛠 Requirements
 
 - Python 3.10以上
@@ -98,3 +100,19 @@ run_blender_script(fbx_path="path/to/your/model.fbx", offset=0.1, split_threshol
 - **[v0.1.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.0):** 初期リリース。FBXファイルからのホールド分離基本機能を実装。
 - **[v0.1.1](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.1):** Blenderスクリプトの改善。ホールド分離の精度向上。
 - **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):**  PyPI パッケージ名を "HoldSplitter" から "hold-splitter" に変更し、README を更新。 
+
+## 🎮 UE5 Integration
+
+HoldSplitterは、処理結果をBlenderファイル(.blend)形式で出力することで、Unreal Engine 5 (UE5)などの3Dソフトウェアやゲームエンジンへの簡単なインポートを可能にしています。この設計により以下の利点があります：
+
+1. **直接インポート**: UE5を含む多くの3D制作ソフトウェアでBlenderファイルを直接インポートできます。
+
+2. **データ保持**: 3Dモデルのジオメトリだけでなく、マテリアル、テクスチャ、階層構造なども保持されます。
+
+3. **整理された構造**: 分離されたホールドは個別のコレクション内に整理され、UE5でインポート時に自動的に整理された状態で取り込めます。
+
+4. **柔軟な編集**: 必要に応じて、後からBlenderで追加の編集や調整を行うことが容易です。
+
+5. **ゲーム開発向け**: クライミングシミュレーターやVR体験の開発など、多様な応用シナリオをサポートします。
+
+これにより、HoldSplitterは3Dモデル処理から実際のゲーム開発まで、シームレスなワークフローを提供します。
