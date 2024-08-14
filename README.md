@@ -5,12 +5,12 @@
 <h2 align="center">
   ～ Unmasking the Wall: Hold by Hold ～
 <br>
-  <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/HoldSplitter">
-<img alt="PyPI - Format" src="https://img.shields.io/pypi/format/HoldSplitter">
-<img alt="PyPI - Implementation" src="https://img.shields.io/pypi/implementation/HoldSplitter">
-<img alt="PyPI - Status" src="https://img.shields.io/pypi/status/HoldSplitter">
-<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/HoldSplitter">
-<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dw/HoldSplitter">
+  <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/hold-splitter">
+<img alt="PyPI - Format" src="https://img.shields.io/pypi/format/hold-splitter">
+<img alt="PyPI - Implementation" src="https://img.shields.io/pypi/implementation/hold-splitter">
+<img alt="PyPI - Status" src="https://img.shields.io/pypi/status/hold-splitter">
+<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/hold-splitter">
+<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dw/hold-splitter">
 <a href="https://github.com/Sunwood-ai-labs/HoldSplitter" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=HoldSplitter&message=Sunwood-ai-labs&color=blue&logo=github"></a>
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sunwood-ai-labs/HoldSplitter">
 <a href="https://github.com/Sunwood-ai-labs/HoldSplitter"><img alt="forks - Sunwood-ai-labs" src="https://img.shields.io/github/forks/HoldSplitter/Sunwood-ai-labs?style=social"></a>
