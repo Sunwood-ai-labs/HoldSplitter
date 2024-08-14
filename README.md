@@ -34,8 +34,7 @@
 >[!IMPORTANT]
 >このリポジトリのリリースノートやREADME、コミットメッセージの9割近くは[claude.ai](https://claude.ai/)や[ChatGPT4](https://chatgpt.com/)を活用した[AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II)で生成しています。
 
-
-HoldSplitterは、ボルダリング壁面の画像からホールドを分離し、クライミングルートの分析と理解を革新的に支援するツールです。
+HoldSplitterは、ボルダリング壁面の3Dモデルからホールドを分離し、クライミングルートの分析と理解を革新的に支援するPythonツールです。
 
 ## 🎥 Demo
 
@@ -43,21 +42,31 @@ HoldSplitterは、ボルダリング壁面の画像からホールドを分離�
 
 ## 🚀 Getting Started
 
-HoldSplitterは現在開発段階にあります。具体的な利用方法は、後日公開されるドキュメントをご確認ください。
+HoldSplitterをインストールするには、以下のコマンドを実行してください：
+
+```bash
+pip install hold-splitter
+```
+
+使用例：
+
+```python
+from hold_splitter.main_script import run_blender_script
+
+run_blender_script(fbx_path="path/to/your/model.fbx", offset=0.1, split_threshold=0.1)
+```
 
 ## 📝 Features
 
-- ボルダリング壁面画像からのホールド分離
-- クリアな壁面ビジュアライゼーション
-- ルート分析のための強力なツール
+- FBXファイルからのボルダリング壁面3Dモデルの読み込み
+- 壁面とホールドの自動分離
+- 分離されたホールドの個別オブジェクト化
+- Blenderを利用した高度な3D処理
 
+## 🛠 Requirements
 
-python main_script.py assets\a\source\finalized\wall_hold_smooth.fbx 0.01
-
-"C:\Program Files\Blender Foundation\Blender 4.2\4.2\python\bin\python.exe" -m pip install pandas tqdm
-"C:\Program Files\Blender Foundation\Blender 4.2\4.2\python\bin\python.exe" -m ensurepip
-
-poetry run python example\demo.py
+- Python 3.10以上
+- Blender 4.2以上
 
 ## 🤝 Contributing
 
@@ -65,8 +74,22 @@ poetry run python example\demo.py
 
 ## 📄 License
 
-このプロジェクトは [ライセンス名] ライセンスで公開されています。 
+このプロジェクトはMITライセンスで公開されています。
 
 ## 🙏 Acknowledgements
 
-このプロジェクトは、多くの素晴らしいオープンソースプロジェクトに支えられています。
+このプロジェクトは、以下の素晴らしいオープンソースプロジェクトに支えられています：
+
+- Blender
+- NumPy
+- Open3D
+- PyMeshLab
+- Matplotlib
+- Loguru
+- tqdm
+
+## 🔄 Updates
+
+- **[v0.1.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.0):** 初期リリース。FBXファイルからのホールド分離基本機能を実装。
+- **[v0.1.1](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.1.1):** Blenderスクリプトの改善。ホールド分離の精度向上。
+- **[v0.2.0](https://github.com/Sunwood-ai-labs/HoldSplitter/releases/tag/v0.2.0):** CLIインターフェースの追加。ユーザビリティの向上。
